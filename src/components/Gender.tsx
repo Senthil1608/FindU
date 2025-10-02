@@ -25,7 +25,7 @@ function Gender({ gender }: GenderProps) {
       <div
         className="gender-box"
         style={{ backgroundColor: boxColor, cursor: "pointer" }}
-        onClick={() => { gender.toLowerCase() !== "male" && setMale(false);navigate(gender.toLowerCase() === "male" ? "/Male" : "/Female", { state: { gender } })}}>
+        onClick={() => { gender.toLowerCase() !== "male" ? setMale(false) : setMale(true);navigate(gender.toLowerCase() === "male" ? "/Male" : "/Female", { state: { gender } })}}>
         <span>{gender}</span>
       </div>
     </div>
