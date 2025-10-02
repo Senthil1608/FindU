@@ -1,0 +1,69 @@
+.result-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.result-container img {
+ height: auto;
+    width: 100%;
+}
+
+.dummy{
+    color: black;;
+}
+.result-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #c2c2c2;
+}
+
+.winner-card {
+  display: block;
+  background: rgb(255, 255, 255);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  margin: 20px auto;
+  text-align: center;
+  max-width: 350px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.winner-card:hover {
+  transform: scale(1.05);
+}
+
+.winner-img {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.winner-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.navigate-btn {
+  margin-top: 25px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #0077ff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.navigate-btn:hover {
+  background: #005fcc;
+}
+
+.actor-name{
+    color: #005fcc;
+}
